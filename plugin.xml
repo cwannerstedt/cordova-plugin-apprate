@@ -49,7 +49,7 @@ under the License.
 
     <!-- android -->
     <platform name="android">
-        <dependency id="cordova-plugin-inappbrowser"/>
+        <dependency url="https://github.com/cwannerstedt/cordova-plugin-inappbrowser.git" commit="f9887e925ee9b789705cd02739b534768310f9b5" />
 
         <source-file src="src/android/AppRate.java" target-dir="src/org/pushandplay/cordova/apprate"/>
 
