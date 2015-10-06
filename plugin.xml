@@ -21,7 +21,7 @@ under the License.
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
         id="org.pushandplay.cordova.apprate"
-        version="1.1.7">
+        version="1.1.8">
     <name>AppRate</name>
     <description>This plugin provide the "rate this app" functionality into your Cordova/Phonegap application
     </description>
@@ -29,8 +29,8 @@ under the License.
     <keywords>cordova,phonegap,AppRate,App Rate,rate,iRate,rate in iTunes,write a review,rate us,rate my application</keywords>
     <license>Apache 2.0</license>
     <info>Cross-platform AppRate plugin for Cordova / PhoneGap</info>
-    <repo>https://github.com/TheBikingViking/cordova-plugin-apprate.git</repo>
-    <issue>https://github.com/TheBikingViking/cordova-plugin-apprate/issues</issue>
+    <repo>https://github.com/cwannerstedt/cordova-plugin-apprate.git</repo>
+    <issue>https://github.com/cwannerstedt/cordova-plugin-apprate/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
@@ -49,8 +49,6 @@ under the License.
 
     <!-- android -->
     <platform name="android">
-        <dependency id="customized-inappbrowser" url="https://github.com/cwannerstedt/cordova-plugin-inappbrowser.git" commit="f9887e925ee9b789705cd02739b534768310f9b5" />
-
         <source-file src="src/android/AppRate.java" target-dir="src/org/pushandplay/cordova/apprate"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
